@@ -8,8 +8,6 @@ This repository contains Python code for a visual–tactile motion EEG experimen
 - `tacMotionDir_repeatedDirection.py` – Only Tactile motion condition
 
 ## visTacMotionEegExpt_main.py
-
-# visTacMotionEegExpt
 Combined PsychoPy experiment for **repeated-direction target detection** using:
 - **Visual motion** (Random Dot Kinematogram; RDK)
 - **Tactile motion** via a haptics device (optional)
@@ -54,7 +52,7 @@ When `simulate_only=False`, the script calls:
 - `play_sensation(0)`
 - `stop_array()`
 
-### Performance upgrades already implemented
+## Performance upgrades already implemented
 - Preallocation of ctypes arrays per direction (avoid per-trial allocation)
 - Next-trial buffer preload during ITI (tactile blocks)
 - Warmup at tactile block start to avoid cold-start latency
