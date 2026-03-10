@@ -1,5 +1,6 @@
 # visTacMotionEegExpt
 This repository contains Python code for a visual–tactile motion EEG experiment.
+visTacMotionEeg_main.py
 
 ## Files in Old Routine
 - `visTacMotionEegExpt_main.py` – Main experiment script
