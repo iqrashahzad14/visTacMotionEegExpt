@@ -1,12 +1,7 @@
 # visTacMotionEegExpt
 This repository contains Python code for a visual–tactile motion EEG experiment.
 visTacMotionEeg_main.py
-
-## Files in Old Routine
-- `visTacMotionEegExpt_main.py` – Main experiment script
-- `visTacMotionEegExpt_main_withTriggers.py` – Main script with EEG triggers
-- `visMotionDir_repeatedDirection.py` – Only Visual motion condition
-- `tacMotionDir_repeatedDirection.py` – Only Tactile motion condition
+This is the main expeirmental code
 
 ## Requirements
 - Python 3.x
@@ -59,3 +54,10 @@ Outcome labels per trial:
 - **MISS**: Target trial + no `a`
 - **FALSE_ALARM**: Non-target + `a`
 - **CORRECT_REJECT**: Non-target + no `a`
+
+## Files in Old Routine
+- `visTacMotionEegExpt_main.py` – Main experiment script
+- `visTacMotionEegExpt_main_withTriggers.py` – Main script with EEG triggers
+- `visMotionDir_repeatedDirection.py` – Only Visual motion condition
+- `tacMotionDir_repeatedDirection.py` – Only Tactile motion condition
+
